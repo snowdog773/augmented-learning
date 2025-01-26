@@ -7,6 +7,7 @@ const Main = () => {
           info@augmented-learning.com
         </a>
       </p>
+      <p>Update for dev branch only</p>
     </main>
   );
 };
