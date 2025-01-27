@@ -1,7 +1,7 @@
 const Main = () => {
   return (
     <main>
-      <p>"Exciting Changes Are on the Way!</p>
+      <p>Exciting Changes Are on the Way!</p>
       <p>
         We're rebuilding our website to provide an enhanced experience for our
         clients and learners. As an Learning provider, we're committed to
@@ -19,7 +19,7 @@ const Main = () => {
       </p>
       <p>
         Thank you for your patience - we can't wait to welcome you back to our
-        refreshed website soon!"
+        refreshed website soon!
       </p>
     </main>
   );
