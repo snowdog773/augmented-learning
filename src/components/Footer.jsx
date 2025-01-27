@@ -1,9 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <p>
-        ©Augmented Learning {new Date().getFullYear()}. All rights reserved.
-      </p>
+      <p>©Learning Augment {new Date().getFullYear()}. All rights reserved.</p>
     </footer>
   );
 };

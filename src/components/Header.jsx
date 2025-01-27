@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header>
-      <h1>Augmented Learning</h1>
+      <h1>Learning Augment</h1>
     </header>
   );
 };
