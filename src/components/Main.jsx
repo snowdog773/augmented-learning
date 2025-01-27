@@ -4,7 +4,7 @@ const Main = () => {
       <p>Exciting Changes Are on the Way!</p>
       <p>
         We're rebuilding our website to provide an enhanced experience for our
-        clients and learners. As an Learning provider, we're committed to
+        clients and learners. As a learning provider, we're committed to
         delivering innovative and engaging solutions - and our new website will
         reflect just that!
       </p>
