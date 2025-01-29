@@ -1,0 +1,24 @@
+Logo.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <title>Commonwealth Bank Logo</title>
+  <desc>Commonwealth Bank of Australia diamond logo in yellow and gold gradient</desc>
+  
+  <defs>
+    <linearGradient id="yellow-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFF00"/>
+      <stop offset="50%" stop-color="#FDE113"/>
+      <stop offset="100%" stop-color="#FFCC00"/>
+    </linearGradient>
+    
+    <linearGradient id="gold-gradient" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#874400"/>
+      <stop offset="50%" stop-color="#F2B400"/>
+      <stop offset="100%" stop-color="#FEDF03"/>
+    </linearGradient>
+  </defs>
+
+  <polygon points="32,0 64,32 32,64 0,32" fill="url(#yellow-gradient)"/>
+  <polygon points="44.15,35.24 32,64 32,64 64,32 55.69,23.68" fill="url(#gold-gradient)"/>
+</svg>

@@ -50,9 +50,88 @@ footer {
 }
 
 a {
-  color: var(--secondary-color);
+  color: white;
 }
 
 a:hover {
   color: var(--hover-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuContainerFull {
+  display: none;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuButton:hover svg path {
+  stroke: var(--hover-color);
+}
+
+.menuContainerMobile > ul {
+  background-color: var(--primary-color);
+  position: absolute;
+  right: 0;
+
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  font-size: 1.4em;
+
+  opacity: 0;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  pointer-events: none;
+  will-change: opacity;
+}
+
+.menuContainerMobile > ul.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.menuContainerMobile > ul li {
+  padding: 1em;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.menuOverlay {
+  background-color: rgba(0, 0, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 950px) {
+  .menuContainerMobile {
+    display: none;
+  }
+
+  .menuContainerFull {
+    display: block;
+  }
+
+  .menuContainerFull > ul {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .menuContainerFull > ul li {
+    list-style: none;
+  }
 }
