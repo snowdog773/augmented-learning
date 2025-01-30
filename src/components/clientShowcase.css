@@ -11,9 +11,9 @@
 }
 
 .client-showcase h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
-  color: var(--text-color);
+  /* color: var(--text-color); */
 }
 
 .client-showcase .subtitle {
@@ -27,8 +27,8 @@
 
 .logo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
   align-items: center;
   justify-items: center;
 }
@@ -55,14 +55,14 @@
   opacity: 1;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .client-showcase h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .logo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
   }
 
   .client-logo {
