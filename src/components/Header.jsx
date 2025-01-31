@@ -10,8 +10,8 @@ const Header = () => {
           {" "}
           <h1>Learning Augment</h1>
         </Link>
-        <FullMenu />
-        <MobileMenu />
+        {/* <FullMenu /> */}
+        {/* <MobileMenu /> */}
       </header>
     </>
   );

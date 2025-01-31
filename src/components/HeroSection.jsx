@@ -19,6 +19,14 @@ const HeroSection = () => {
           <button className="cta-button">Get a Free Consultation</button>
         </Link>
       </div>
+      Exciting Changes Are on the Way! We're rebuilding our website to provide
+      an enhanced experience for our clients and learners. As a learning
+      provider, we're committed to delivering innovative and engaging solutions
+      - and our new website will reflect just that! We're relaunching on 19
+      February 2025! In the meantime, we're here to help. For inquiries or to
+      learn more about our services, please contact us at
+      gareth@learningaugment.com or +61448787074 Thank you for your patience -
+      we can't wait to welcome you back to our refreshed website soon!
     </div>
   );
 };
