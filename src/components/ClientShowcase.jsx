@@ -4,17 +4,17 @@ const ClientShowcase = () => {
   const clients = [
     {
       name: "Commonwealth Bank",
-      logo: "/images/commonwealthBankLogo.jpg",
+      logo: "/images/home/commonwealthBankLogo.jpg",
       caseStudyUrl: "/case-studies/commonwealth-bank",
     },
     {
       name: "NSW Rural Fire Service",
-      logo: "/images/nswRuralFireServiceLogo.png",
+      logo: "/images/home/nswRuralFireServiceLogo.png",
       caseStudyUrl: "/case-studies/nsw-rfs",
     },
     {
       name: "Beyond Blue",
-      logo: "/images/beyondBlueLogo.svg",
+      logo: "/images/home/beyondBlueLogo.svg",
       caseStudyUrl: "/case-studies/beyond-blue",
     },
   ];

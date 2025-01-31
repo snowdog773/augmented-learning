@@ -1,0 +1,93 @@
+.solutions-page {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.solutions-intro {
+  position: relative;
+  min-height: 500px;
+  background-color: var(--background-light-blue);
+  padding: 4rem 1rem;
+}
+
+.solutions-intro-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.solutions-expertise {
+  padding: 4rem 1rem;
+  background-color: white;
+}
+
+.expertise-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.expertise-card {
+  background: var(--background-light-blue);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.examples-section {
+  background-color: var(--background-light-blue);
+  padding: 4rem 1rem;
+}
+
+.examples-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel {
+  margin: 3rem 0;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-section {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .expertise-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .expertise-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

@@ -5,6 +5,9 @@
   --border-color: #e2e8f0; /* Light gray - borders */
   --bg-color: #ffffff; /* White - background */
   --hover-color: #134b61; /* Darker blue - hover states */
+  --hover-button-color: #e6b800; /* Yellow - button color */
+  --button-color: #cc9900; /* Darker yellow - button hover */
+  --background-light-blue: #f8fafc; /* Light blue - background */
 }
 
 #root {
@@ -60,6 +63,11 @@ footer {
   z-index: 5;
 }
 
+p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
 a {
   font-weight: 500;
   color: var(--text-color);
@@ -90,7 +98,7 @@ a:hover {
 }
 
 .header ul a:hover {
-  color: var(--hover-color);
+  color: var(--secondary-color);
 }
 
 .menuContainerFull {
@@ -171,16 +179,19 @@ a:hover {
   padding: 1rem 2rem;
   font-size: 1.2rem;
   background-color: var(--secondary-color);
+  /* color: #134b61; */
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); */
+  text-shadow: -1px -1px 2px #0009, 1px -1px 2px #0009, -1px 1px 2px #0009,
+    1px 1px 2px #0009;
   font-weight: bold;
 }
 
 .cta-button:hover {
-  background-color: var(--hover-color);
+  background-color: var(--hover-button-color);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }

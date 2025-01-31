@@ -41,7 +41,7 @@ const ServiceHighlights = () => {
             </div>
           ))}
         </div>
-        <Link to="/contact">
+        <Link to="/solutions">
           <button className="cta-button">Learn More About Our Services</button>
         </Link>
       </div>
