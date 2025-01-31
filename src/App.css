@@ -73,6 +73,7 @@ a:hover {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 0 30px;
   align-items: center;
 }
 
@@ -113,6 +114,7 @@ a:hover {
 .menuContainerMobile > ul {
   background-color: var(--primary-color);
   position: absolute;
+  margin: 0;
   right: 0;
   z-index: 5;
   width: 100%;
